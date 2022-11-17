@@ -5,25 +5,119 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfólio Katia Nienow</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Sono:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color:#222;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+      width: 100%; 
+      color:lightgray; 
+      font-size: 60px; 
+      margin-top: 30px;
+      font-family: 'Sono', sans-serif;
+      border-bottom: 2px gray;
+    }
+
+    a {
+      color:white;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    a:hover {
+      cursor: pointer;
+    }
+
+    ul {
+      color:beige; 
+      font-size: 20px; 
+      width: 1300px; 
+      margin-left: 20px;
+      padding: 5px;
+    }
+
+    p {
+      color:beige; 
+      font-size: 30px; 
+      width: 1300px; 
+      margin-left: 30px;
+      margin-top: 30px;
+    }
+
+    button {
+      background-color: gray;
+      color:beige;
+      font-size: 15px;
+      font-family: 'Roboto', sans-serif;
+      border-radius: 5px;
+      font-weight: 600;
+      align-items:flex-end;
+    }
+    
+    button:hover {
+      cursor: pointer;
+    }
+    
+    img {
+      border-radius:100px; 
+      width:200px; 
+      height:200px; 
+      margin-left: 30px; 
+      margin-top: 10px;
+    }
+
+    span {
+      color:beige; 
+      font-size: 20px; 
+      margin-left: 30px;
+    }
+
+    .footer {
+      font-size: 20px;
+    }
+    
+    .hab1 {
+      font-size: 19px;
+    }
+
+    .hab2 {
+      font-size: 18px;
+    }
+
+    .hab3 {
+      font-size: 17px;
+    }
+
+  </style>
 </head>
-<body style="background-color:#222;">
-  <h1 align="center" style="width: 100%; color:white; font-size: 50px; margin-top: 30px;"><strong>Katia Nienow</strong></h1>
+<body>
+  <h1><strong>Katia Nienow</strong></h1>
   <hr>
-  <a style="color:beige;" href="#sobre-mim"><button style="background-color: gray;">Sobre mim</button></a>
-  <a style="color:beige;" href="#foto-perfil"><button style="background-color: gray;">Minha foto</button></a>
-  <a style="color:beige;" href="#blog"><button style="background-color: gray;">Meu blog favorito</button></a>
-  <a style="color:beige;" href="#hobbies"><button style="background-color: gray;">Meus hobbies</button></a>
-  <a style="color:beige;" href="#habilidades"><button style="background-color: gray;">Minhas habilidades</button></a>
+  <a href="#sobre-mim"><button>Sobre mim</button></a>
+  <a href="#foto-perfil"><button>Minha foto</button></a>
+  <a href="#blog"><button>Meu blog favorito</button></a>
+  <a href="#hobbies"><button>Meus hobbies</button></a>
+  <a href="#habilidades"><button>Minhas habilidades</button></a>
   <hr> 
-  <p id="sobre-mim" style="color:beige; font-size: 25px; width: 1300px; margin-left: 30px;">Me chamo <strong>Katia Nienow</strong>, tenho 29 anos, sou brasileira, natural do RS e atualmente resido em Chapecó/SC. 
+  <p id="sobre-mim">Me chamo <strong>Katia Nienow</strong>, tenho 29 anos, sou <em>brasileira</em>, natural do RS e <strong>atualmente resido em Chapecó/SC.</strong> 
     Sou bacharel em Direito, pós-graduada em Direito do Trabalho e estou em transição de carreira para a área de TI.</p> 
-  <p id="hobbies" style="color:beige; font-size: 25px; width: 1300px; margin-left: 30px;">Adoro cães e gatos <em>(tenho dois gatos e um cachorro)</em>, ver séries e filmes, ler livros de suspense e ouvir podcasts. Estou sempre provando novos cafés com meu marido, de preferência acompanhados de um bom chocolate.</p>
-  <p id="habilidades" style="color:beige; font-size: 25px; width: 1300px; margin-left: 30px;"><em>Modéstia à parte, sou uma ótima cozinheira</em>. Sou muito detalhista, principalmente quando se trata de decoração de eventos em família e mesa posta. Costumava desenhar, mas estou enferrujada no momento. </p>  
+  <p id="hobbies">Adoro cães e gatos <em>(tenho dois gatos e um cachorro)</em>, ver séries e filmes, ler livros de suspense e ouvir podcasts. Estou sempre provando novos cafés com meu marido, de preferência acompanhados de um bom chocolate.</p>
+  <ul id="habilidades">Minhas habilidades que mais valorizo e me orgulho:
+    <li class="hab1"><em>Modéstia à parte, sou uma ótima cozinheira</em>.</li> 
+    <li class="hab2">Sou muito detalhista, principalmente quando se trata de decoração de eventos em família e mesa posta.</li> 
+    <li class="hab3">Me arrisco nos desenhos à mão.</li>
+  </ul>  
   <a href="https://www.linkedin.com/in/katia-nienow-763481130/">
-    <img id="foto-perfil" aling="left" style="border-radius:100px; width:200px; height:200px; margin-left: 30px; margin-top: 10px;" src="images/foto-katia.jpeg" alt="Minha foto de perfil" align="center">
+    <img id="foto-perfil" src="images/foto-katia.jpeg" alt="Minha foto de perfil">
   </a>
-  <p style="color:beige; font-size: 20px; width: 1300px; margin-left: 30px;">Nesta foto que ilustra meu perfil visto um blazer roxo, estou sorrindo e embora não seja aparente, estou segurando uma xícara de espresso.</p>
-  <span id="blog" style="color:beige; font-size: 20px; margin-left: 30px">Um dos meus blogs prediletos é o <a style="color:gray"  href="https://associaodossemcarisma.substack.com/" target="_blank">"Associação dos sem carisma" da Camila Fremder.</a></span>    
+  <p class="footer">Nesta foto que ilustra meu perfil visto um blazer roxo, estou sorrindo e embora não seja aparente, estou segurando uma xícara de espresso.</p>
+  <span class="footer" id="blog">Um dos meus blogs prediletos é o <a href="https://associaodossemcarisma.substack.com/" target="_blank">"Associação dos Sem Carisma" da Camila Fremder.</a></span>    
   <hr>
 </body>
 </html>
